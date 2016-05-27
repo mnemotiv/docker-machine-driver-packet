@@ -324,7 +324,7 @@ func (d *Driver) getClient() *packngo.Client {
 }
 
 func (d *Driver) getOsFlavors() []string {
-	return []string{"ubuntu_14_04"}
+	return []string{"ubuntu_14_04", "coreos_stable", "coreos_beta", "coreos_alpha"}
 }
 
 func stringInSlice(a string, list []string) bool {
